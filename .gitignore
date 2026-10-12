@@ -1,0 +1,49 @@
+#text editor config
+.idea/
+.vscode/
+
+# Build output
+build/
+cmake-build-*/
+out/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+CTestTestfile.cmake
+
+# Compiled firmware
+*.o
+*.a
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.su
+
+# Debugging
+*.launch
+*.log
+core
+core.*
+
+# IDE settings
+.idea/
+.vscode/
+*.iml
+
+# macOS
+.DS_Store
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# CLion / CMake user-specific settings
+cmake-build-debug/
+cmake-build-release/
